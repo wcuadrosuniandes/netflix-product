@@ -358,9 +358,9 @@ const showDataMovie = (id) => {
     } else {
         foundObject.classList.remove('bg-success');
         foundObject.classList.add('bg-danger');
-        foundObject.innerHTML = `Faltan ${dataMovie.foundProducts} objetos | Encuentralos ahora`;
+        foundObject.innerHTML = `Faltan ${dataMovie.foundProducts} objetos  Encuentralos ahora`;
     }
-    foundObject.innerHTML = dataMovie.foundProducts != 0 ? `Faltan ${dataMovie.foundProducts} objetos | Encuentralos ahora` : '¡Felicidades! Has encontrado todos los objetos ocultos.';
+    foundObject.innerHTML = dataMovie.foundProducts != 0 ? `Faltan ${dataMovie.foundProducts} objetos  Encuentralos ahora` : '¡Felicidades! Has encontrado todos los objetos ocultos.';
     movieSelected = id;
 }
 
