@@ -324,3 +324,10 @@ body {
     background-color: rgb(0, 0, 0, 0.95) !important;
     color: #fff;
 }
+
+.firma {
+    font-family: "Pacifico", cursive;
+    /* Fuente manuscrita */
+    font-size: 1em;
+    /* Tamaño ligeramente más grande */
+}
